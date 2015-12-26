@@ -16,10 +16,10 @@ The .zip file is unzipped to the /data directory in the user's working directory
 ### Section 3: Read Data
 The following variables are created to store the read data from the unzipped .txt files of the same name:
 * *subject_test* - includes number associated with each subject involved in "test" group
-* *X_test* - includes observations for each subject/activity pair in "test" group
+* *X_test* - includes observations for movement data for each subject/activity pair in "test" group
 * *y_test* - includes labels for activities performed for each observation in "test" group
 * *subject_train* - includes number associated with each subject involved in "train" group
-* *X_train* - includes observations for each subject/activity pair in "train" group
+* *X_train* - includes observations for movement data for each subject/activity pair in "train" group
 * *y_train* - includes labels for activities performed for each observation in "train" group
 These variables will be used to combine the data sets in later steps.
 
